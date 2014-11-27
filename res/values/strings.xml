@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Barrel Racing</string>
+    <string name="action_settings">Settings</string>
+    <string name="game_over">Game Over!</string>
+    <string name="title_activity_game_over">GameOverActivity</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="radius">Radius of barrel</string>
+    <string name="high_score_list_no_items">No high score entries to display</string>
+    <string name="scoreEntry">Please enter score</string>
+    <string name="btnScoreEntry">Enter score</string>
+    <string name="btnViewScores">View score</string>
+    <string name="badInput">Unable to process that input</string>
+    <string name="btnCust">Save</string>
+    <string name="btnGame">Start</string>
+    
+    <string name="txtStart">Race Now</string>
+	<string name="txtYourScore">Me Score</string>
+	<string name="txtHighScore">Me Best Score</string>
+	<string name="txtExit">Leave Stadium</string>
+	<string name="txtHelp">Lost Yer Horse?</string>
+	<string name="txtDescription">Description</string>
+	<string name="helpdescription">
+	   	"Yeh wanna race? Yah? Read 'em rules below.\n\nClick on "Race Now" in the main screen to start. Tap the screen, tilt yer device to control the black box. Go around each barrel once till they turn green. Return to the red pen once all barrels turn green.\n\nBeware, do not touch them walls, or you get a penalty like them drunk drivers. Do not touch the barrel, or y'll be thrown out.\n\nUse the settings to change yer box's speed and size of yer barrels. But hey, race as fast yeh can, lower the time you take, the better it is."
+        				</string>
+	<string name="accelerometer_dimensions">"  (0:slowest; 10:fastest)"</string>
+<string name="radius_dimensions">"  (0:smallest; 10: largest)"</string>
+	
+</resources>

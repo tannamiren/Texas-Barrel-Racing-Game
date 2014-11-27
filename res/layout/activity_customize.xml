@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Lavanya Nadikuda - lxn130730
+Description : Design layout for the customization screen.
+User can set its own values from the pre-defined values to set the accelerometer and barrel radius. 
+ -->
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label_accel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/accelerometer"
+        android:textSize="@dimen/score_text_size" />
+
+    <SeekBar
+        android:id="@+id/seekBarAcc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_accel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:max="10"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBarAcc"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/score_text_size" />
+
+    <TextView
+        android:id="@+id/label_radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="20dp"
+        android:text="@string/radius"
+        android:textSize="@dimen/score_text_size" />
+
+    <SeekBar
+        android:id="@+id/seekBarRad"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_radius"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:max="10" 
+        android:progress="0"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBarRad"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/score_text_size" />
+
+    <Button
+        android:id="@+id/custBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerInParent="true"
+        android:text="@string/btnCust"
+        android:textSize="@dimen/score_text_size" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label_accel"
+        android:layout_toRightOf="@+id/label_accel"
+        android:text="@string/accelerometer_dimensions"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/label_radius"
+        android:layout_alignBottom="@+id/label_radius"
+        android:layout_toRightOf="@+id/label_radius"
+        android:text="@string/radius_dimensions"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
